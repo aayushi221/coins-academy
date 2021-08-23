@@ -12,6 +12,8 @@ body {
   .topnav {
     overflow: hidden;
     background-color: #000000;
+    width:100%;
+    height: fit-content;
   }
   
   .topnav a {
@@ -23,13 +25,28 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
+    margin-top: 10px ;
+    margin-bottom: -10px;
   }
   
+  .links >a {
+   margin-top: 1%;
+   margin-right: 2%;
+  }
+
   .topnav a:hover {
-    background-color: #ff5959;
-    color: black;
+    /* background-color: #ff5959; */
+    color: green;
   }
   
+  .logo >img {
+    height: 3em;
+    width: 15em;
+  }
+  .logo {
+    margin: 0 5%;
+  }
+
   .topnav a.active {
     /* background-color: #ff0000; */
     color: white;
@@ -38,6 +55,41 @@ body {
   .topnav .icon {
     display: none;
   }
+
+  .btn {
+    line-height: 32px;
+    text-align: center;
+    width: 87px;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    margin-left: 2%;
+  }
+  .stretch-to-fit {
+    overflow: hidden;
+  }
+  .right-lnk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-right: 5%;
+  }
+
+  .main-search {
+    clear: both;
+  }
+  .main-search > img{
+    height: 20px;
+    width: 20px;
+    
+  }
+  
+  .main-search.active {
+    background: #ffffff;
+  }
+ 
+  
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
