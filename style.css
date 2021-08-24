@@ -145,10 +145,17 @@ margin-bottom:10% ;
    width: 400px;
    height: 400px;
    margin: 5% 0 5% 10%;
-
  }
 
-
+ .two {
+   background-color: black;
+   width: 100vw;
+   height: auto;
+ }
+.organisations > h1 {
+  font-size:30px;
+  color: #fff;
+}
 
 
 
