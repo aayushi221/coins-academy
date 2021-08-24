@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     /* background-color: black; */
-    height: 30000px;
+   
   }
   
   .topnav {
@@ -105,13 +105,13 @@ body {
  
   /* section one  */
 .landing-page-divs {
-  height: fit-content;
-  margin-bottom: 10%;
+  height: auto;
+  /* margin-bottom: 30%; */
 }
   .first {
     background-color: #50B848;
     width:100wh;
-    /* height: 100vh; */
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,22 +129,22 @@ margin-bottom:10% ;
  .landing-page-div-2 > p {
   font-size: 24px;
   line-height: 30px;
- 
   color: #FFFFFF;
-  margin-bottom:10% ;
+  /* margin-bottom:10% ; */
    }
 
  .landing-page-divs > button {
   background: #FFF9F9;
   border-radius: 10px;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 40px 10px 40px;
   border-color:white ;
   float:right;
+  margin-top:10%;
  }
  .landing-img {
    width: 400px;
    height: 400px;
-   margin: 10% 0 40% 10%;
+   margin: 5% 0 5% 10%;
 
  }
 
