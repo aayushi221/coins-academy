@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* background-color: black; */
+    background-color: black;
    
   }
   
@@ -150,7 +150,7 @@ margin-bottom:10% ;
  .two {
    background-color: black;
    width: 100vw;
-   height: 300px;
+   height: 350px;
    margin-bottom: 10%;
  }
  .organisations {
@@ -165,9 +165,33 @@ margin-bottom:10% ;
     margin: 20px;
 }
 .organisations-logos {
-  
+  width: 90%;
+  height: auto;
+  background: #222222;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-flow: wrap;
+   margin:2% 5%;
+   border-radius: 20px;
 }
 
+.box {
+  width: 10%;
+  height: 100px;
+  margin:20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accenture {
+  margin-bottom: 3%;
+}
+.infosys {
+  margin-bottom: 2%;
+}
 
 
 
@@ -260,7 +284,9 @@ margin-bottom:10% ;
       display:block;
        float: right;
     }
- 
+    .box {
+      width: 90%;
+    }
   }
   @media screen and (max-width: 1090px ) and (min-width: 600px) {
     .links{
@@ -269,4 +295,10 @@ margin-bottom:10% ;
   .right-lnk {
     margin-top: 3%;
   }
+  }
+
+  @media screen and (max-width: 1200px ) {
+   .box {
+     width: 40%;
+   }
   }
