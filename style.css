@@ -150,7 +150,7 @@ margin-bottom:10% ;
  .two {
    background-color: black;
    width: 100vw;
-   height: 350px;
+   height: 300px;
    margin-bottom: 10%;
  }
  .organisations {
@@ -162,7 +162,8 @@ margin-bottom:10% ;
   .organisations > h1 {
     font-size:30px;
     color: #fff;
-    margin: 20px;
+    margin: 40px;
+    margin-left:5%;
 }
 .organisations-logos {
   width: 90%;
@@ -191,6 +192,79 @@ margin-bottom:10% ;
 }
 .infosys {
   margin-bottom: 2%;
+}
+
+
+.why-coins {
+  width: 100vw;
+  margin-bottom: 50px;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  background: #181818;
+}
+
+.card {
+  width: 25%;
+  height: 300px;
+  margin: 50px auto;
+  transition: 0.3s;
+  border-radius:20px;
+  background: #222222;
+  color:#fff;
+}
+.card-header>h1::before {
+  content:'';
+  background: url(./images/plus-sign.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 33px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  }
+
+  .card-body::after {
+    content:'';
+    background: url(./images/plus-sign.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 33px;
+    position: absolute;
+    bottom: 15px;
+    right: 35px;
+    }
+  
+
+.card-header {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  border-radius:20px 20px 0 0;
+  text-align: center;
+}
+
+.card-header >h1 >img {
+  height:30px; 
+  width:30px;
+  margin-top: 4%;
+  margin-right: 3%;
+
+}
+.card-body {
+  padding: 0 20px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 2em;
 }
 
 
@@ -302,3 +376,29 @@ margin-bottom:10% ;
      width: 40%;
    }
   }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .why-coins {
+      width: 100%;
+    }
+  
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    .card {
+      width: 80%;
+    }
+  }
+  
