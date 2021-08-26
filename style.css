@@ -9,7 +9,8 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: black;
-   overflow-x: hidden;
+    overflow-x: hidden;
+    /* margin-left:8%; */
   }
   
   .topnav {
@@ -531,9 +532,36 @@ align-items:center;
    align-items:center;
    }
  
-
-
-
+   .footer {
+    padding: 60px 0;
+    background: #111112;
+  }
+  .footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .footer .social {
+    color: black;
+  }
+  .footer li, .footer a {
+    color: #666666;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .footer .title {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #ccc;
+    border-bottom: 1px solid #333;
+  }
+  @media screen and (max-width: 768px) {
+    .footer .col-sm-3 {
+      padding-bottom: 2rem;
+    }
+  }
+  
 
 
 
