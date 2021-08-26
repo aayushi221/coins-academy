@@ -107,6 +107,9 @@ body {
   /* section one  */
 .landing-page-divs {
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* margin-bottom: 30%; */
 }
   .first {
@@ -134,7 +137,7 @@ margin-bottom:10% ;
   /* margin-bottom:10% ; */
    }
 
- .landing-page-divs > button {
+ .landing-heading > button {
   background: #FFF9F9;
   border-radius: 10px;
   padding: 10px 40px 10px 40px;
@@ -555,7 +558,7 @@ align-items:center;
   }
   
   .col-sm-3 {
-    margin:10% 0;
+    margin:10% 0 0;
   }
   .footer ul {
     margin: 0;
@@ -582,7 +585,9 @@ align-items:center;
     text-decoration: none;
   }
  
-
+.company {
+  margin-inline: 6%;
+}
 
 
 
@@ -628,6 +633,9 @@ align-items:center;
     .footer .col-sm-3 {
       padding-bottom: 2rem;
     }
+    .landing-page-divs{
+      margin:0 2%;
+    }
   }
   
 
@@ -647,6 +655,9 @@ align-items:center;
   }
   
   @media screen and (max-width: 600px) {
+    /* *{
+      overflow-x: hidden;
+    } */
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -657,7 +668,53 @@ align-items:center;
     .right-lnk{
       display: none;
     }
-   
+    .landing-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      width:auto;
+      height: auto;
+    }
+    .landing-img >img {
+      width: 150px;
+      height: 150px;
+    }
+    .landing-page-divs{
+      margin:10px;
+    }
+    .landing-page-div-1 > h1 {
+      font-size: 20px;
+      line-height: 29px;
+    }
+    .landing-heading >button{
+      float:left;
+    }
+    .landing-page-div-2 > p {
+      font-size: 18px;
+      line-height: 16px;
+    }
+    .landing-page-divs > button {
+      margin-inline: auto;
+    }
+    .flex-container {
+      flex-direction:column ;
+      margin:0;
+    }
+    .dashboard-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .text-dashboard {
+      max-width:80%;
+    }
+    .certificate-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .text-certificate {
+      max-width:80%;
+    }
   }
   
   
@@ -688,6 +745,7 @@ align-items:center;
       width: 90%;
     }
   }
+  
   @media screen and (max-width: 1090px ) and (min-width: 600px) {
     .links{
     display: none;
