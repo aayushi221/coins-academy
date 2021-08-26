@@ -532,23 +532,45 @@ align-items:center;
    align-items:center;
    }
  
+   /* footer  */
+
+   .footer-div {
+     background: #222222;
+   }
+
    .footer {
     padding: 60px 0;
-    background: #111112;
+    margin:0 5%;
+  }
+  .row-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background: #222222;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .col-sm-3 {
+    margin:10% 0;
   }
   .footer ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    
   }
   .footer .social {
     color: black;
   }
   .footer li, .footer a {
-    color: #666666;
-    font-size: 13px;
+    color: #7C7C7D;
+    font-size: 15px;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 40px;
   }
   .footer .title {
     margin-bottom: 0.5rem;
@@ -556,6 +578,52 @@ align-items:center;
     color: #ccc;
     border-bottom: 1px solid #333;
   }
+ a{
+    text-decoration: none;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  @media screen and (max-width: 1200px ) {
+   .box {
+     width: 40%;
+   }
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .footer .col-sm-3 {
       padding-bottom: 2rem;
@@ -563,29 +631,21 @@ align-items:center;
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  @media screen and (max-width: 620px) {
+    .why-coins {
+      width: 100%;
+    }
   
-
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    .card {
+      width: 80%;
+    }
+  }
+  
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -636,35 +696,3 @@ align-items:center;
     margin-top: 3%;
   }
   }
-
-  @media screen and (max-width: 1200px ) {
-   .box {
-     width: 40%;
-   }
-  }
-  .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .card {
-      width: 40%;
-    }
-  }
-  
-  @media screen and (max-width: 620px) {
-    .why-coins {
-      width: 100%;
-    }
-  
-    .heading {
-      padding: 20px;
-      font-size: 20px;
-    }
-  
-    .card {
-      width: 80%;
-    }
-  }
-  
