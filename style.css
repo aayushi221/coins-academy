@@ -639,7 +639,11 @@ align-items:center;
     .card {
       width: 70%;
       height: auto;
-     
+    }
+    .three {   
+      margin-top: 110%;
+      margin-bottom: 0;
+    }
   }
   
 
