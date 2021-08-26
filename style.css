@@ -636,21 +636,39 @@ align-items:center;
     .landing-page-divs{
       margin:0 2%;
     }
+    .card {
+      width: 70%;
+      height: auto;
+     
   }
   
 
   @media screen and (max-width: 620px) {
     .why-coins {
       width: 100%;
+      margin: 0;
     }
   
     .heading {
       padding: 20px;
       font-size: 20px;
+      margin: 20px 0;
     }
   
     .card {
       width: 80%;
+      height: auto;
+      margin: 5% 0;
+    }
+    .card-header {
+      margin-top:2%;
+    }
+    .card-body {
+      margin-bottom: 2%;
+    }
+    .three {   
+      margin-top: 210%;
+      margin-bottom: 0;
     }
   }
   
@@ -691,14 +709,23 @@ align-items:center;
       float:left;
     }
     .landing-page-div-2 > p {
-      font-size: 18px;
-      line-height: 16px;
+      font-size: 13px;
+      line-height: 19px;
     }
     .landing-page-divs > button {
       margin-inline: auto;
     }
     .flex-container {
       flex-direction:column ;
+      margin:0;
+    }
+
+    .organisations >h1 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .organisations-logos >.box {
       margin:0;
     }
     .dashboard-div {
@@ -714,6 +741,9 @@ align-items:center;
     }
     .text-certificate {
       max-width:80%;
+    }
+    .courses {
+      margin:0;
     }
   }
   
