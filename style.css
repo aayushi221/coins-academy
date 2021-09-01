@@ -45,8 +45,8 @@ body {
   }
   
   .logo >img {
-    height: 3em;
-    width: 15em;
+    height: 2em;
+    width: 10em;
   }
   .logo {
     margin: 0 5%;
@@ -126,7 +126,7 @@ font-size: 44px;
 line-height: 59px;
 letter-spacing: 0.015em;
 color: #FFFFFF;
-margin-bottom:10% ;
+/* margin-bottom:10% ; */
  }
 
  
@@ -143,12 +143,12 @@ margin-bottom:10% ;
   padding: 10px 40px 10px 40px;
   border-color:white ;
   float:right;
-  margin-top:10%;
+  /* margin-top:10%; */
  }
  .landing-img {
    width: 400px;
    height: 400px;
-   margin: 5% 0 5% 10%;
+   margin:  1% 10%;
  }
 
  .two {
@@ -162,23 +162,25 @@ margin-bottom:10% ;
    height: fit-content;
    display: flex;
    align-items: center;
+   margin-top:2%;
   }
   .organisations > h1 {
     font-size:30px;
     color: #fff;
     margin: 10px;
-    margin-left:5%;
+    margin-left:12%;
 }
 .organisations-logos {
-  width: 90%;
+  width: 80%;
   height: auto;
   background: #222222;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   flex-flow: wrap;
-   margin:0 5% 6%;
-   border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+  margin:0 5% 4%;
+  margin-left: 11%;
+  border-radius: 20px;
 }
 
 .box {
@@ -191,12 +193,12 @@ margin-bottom:10% ;
   align-items: center;
 }
 
-.accenture {
+/* .accenture {
   margin-bottom: 3%;
 }
 .infosys {
   margin-bottom: 2%;
-}
+} */
 
 
 
@@ -711,15 +713,15 @@ align-items:center;
       margin-bottom: 2%;
     }
     .three {   
-      margin-top: 210%;
+      margin-top: 220%;
       margin-bottom: 0;
     }
   }
   
   @media screen and (max-width: 600px) {
-    *{
+    /* *{
       overflow-x: hidden;
-    }
+    } */
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -776,12 +778,32 @@ align-items:center;
       display: flex;
       flex-direction: column;
     }
+    .dashboard> img {
+      height: 215px;
+      width: auto;
+      margin: 41% -20% 0;
+  }
+
     .text-dashboard {
       max-width:80%;
     }
-    .certificate-div {
+    .textbody {
+      display: none;
+    }
+    .certificate-div { 
+      margin-top: 95%;
+    }
+    .certificate-image > img {
+      height: 225px;
+width: auto;
+margin-left: -51px;
+
+  }
+    .flex-container-certificate {
       display: flex;
       flex-direction: column;
+      margin-top: -15%; 
+      
     }
     .text-certificate {
       max-width:80%;
@@ -789,7 +811,13 @@ align-items:center;
     .courses {
       margin:0;
     }
+    .box-row {
+      display: flex;
+      flex-direction: column;
+    }
+
   }
+
   
   
   @media screen and (max-width: 600px) {
