@@ -494,7 +494,7 @@ hr {
   } */
 
   .boxes .box-cert { 
-    /* width:90%;  */
+    width:90%; 
  margin:50px; 
 display:table;
 justify-content: center;
@@ -508,28 +508,18 @@ align-items:center;
 } 
 
  .boxes .box-cert .box-cell { 
-  display:table-cell; 
+display:table-cell; 
  width: 20%; 
  padding:10px; 
  color:white
 } 
                
 
-.boxes .box-cert .box-cell.box1 { 
+.boxes .box-cert .box-cell{ 
 justify-content: center;
 align-items:center;
   } 
 
-.boxes .box-cert .box-cell.box2 { 
-    justify-content: center;
-        align-items:center;
-}
-
-.boxes .box-cert .box-cell.box3 { 
-  justify-content: center;
-   align-items:center;
-   }
- 
    .subscribe {
   background-color: #E5E5E5;
   display: flex;
@@ -811,9 +801,16 @@ margin-left: -51px;
     .courses {
       margin:0;
     }
+  
     .box-row {
       display: flex;
       flex-direction: column;
+    }
+    .boxes .box-cert .box-cell {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 80%;
     }
 
   }
